@@ -39,7 +39,7 @@ html {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
-        background-color: #F5F5DC;
+       
     }
 
     .top-nav-collapse {
@@ -55,7 +55,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../art_assets/treebus.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../art_assets/ep_naturalblack.png");
    /* background-image: url();*/
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
@@ -104,4 +104,8 @@ of those sections to manage the look and feel of the site. */
   padding: 1rem;
   background-color: #F5F5DC;
   text-align: center;
+}
+
+#robname {
+    font-size: 200%;
 }
